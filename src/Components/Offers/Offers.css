@@ -1,0 +1,40 @@
+.offers{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer img{
+    width: 350px;
+    border-radius: 10px;
+    display: block;
+}
+.offer{
+    cursor: pointer;
+    position: relative;
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(hwb(216 3% 48% / 0.432),rgba(8,0,58,0.7));
+    display:flex ;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s;
+    padding-top: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.offer:hover .caption{
+    opacity: 1;
+    padding-top: 0%;
+}

@@ -1,0 +1,25 @@
+.folder{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img {
+    width: 300px;
+    border-radius: 10%;
+}
+.btn1{
+    background: #1d087a;
+    color: #fff;
+    padding: 17px 35px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}

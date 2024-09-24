@@ -1,0 +1,24 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(hwb(216 3% 48% / 0.432),rgba(8,0,58,0.7)),url('../../assets/skyscraper-city-buildings-4k-7n.jpg') ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+    color: white;
+}
+.hero-text h1{
+    font-size: 45px;
+    font-family: 600;
+}
+.hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}

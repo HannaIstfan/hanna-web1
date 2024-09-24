@@ -1,0 +1,18 @@
+.about{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-left img{
+    width: 600px;
+    border-radius: 10px;
+    flex-basis: 40%;
+}
+.about-rghite{
+    padding: 5%;
+    flex-basis: 48%;
+}
+.about-rghite h1 {
+    margin-bottom: 20px;
+}
